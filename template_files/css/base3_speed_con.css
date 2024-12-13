@@ -1,0 +1,1838 @@
+*{
+	margin:0px;
+	padding:0px; 
+}
+  body{
+    -webkit-text-size-adjust: none;
+	 -moz-text-size-adjust: none;
+	 -ms-text-size-adjust: none;
+	 
+  }
+  
+.MainBtnTable{
+	height:100%;
+	width:100%;
+	border-spacing:0;
+	border-width:0;
+	padding:0;
+	border-collapse:collapse;
+	
+}
+.MainBtnTable td{
+	vertical-align:middle;
+	
+}
+
+.FooterTable{
+	width:100%;
+}
+  
+.container-fluid {
+	font-family:"Times New Roman", Times, serif;
+	text-align:left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%, 100%;
+	margin:auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	height: calc(100%);
+	position:absolute;
+	/*left:calc((100% - 1200px) / 2);*/
+	
+	 
+}
+.header {
+	float:left;
+	height:7%;
+	width:100%;
+	display:inline-block;
+	background-image: -webkit-gradient(linear, bottom top, bottom top, from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, rgba(102, 179, 255, 0.37), #fff);
+	background-image: -moz-gradient(linear, bottom top, bottom top, from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -moz-linear-gradient(bottom, rgba(102, 179, 255, 0.37), #fff);
+	background-image: -ms-gradient(linear, bottom top from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -ms-linear-gradient(bottom, rgba(102, 179, 255, 0.37), #fff);
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5966b3ff',GradientType=0 ); /* IE6-9 */
+	/*-ms-filter: progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB);*/
+}
+.container {
+	height:81%;
+	width:100%;
+	float:left;
+}
+.container-left {
+	width:20%;
+	height:100%;
+	float:left;
+	/*-webkit-box-shadow: 0px 0px 0px #888888, 0px 0px 15px rgba(0, 0, 0, .4), inset 0px 0px 6px rgba(255, 255, 255, .3), inset 6px 0px 0px rgba(255, 255, 255, .5);
+	-moz-box-shadow: 6px 0px 0px #888888, 0px 3px 15px rgba(0, 0, 0, .4), inset 6px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 3px rgba(255, 255, 255, .5);*/
+	/*box-shadow: 6px 0px 0px #888888, 0px 0px 0px rgba(0, 0, 0, .4), inset 6px px 0px rgba(255, 255, 255, .3), inset 6px 0px 0px rgba(255, 255, 255, .5);*/
+	-webkit-box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+	-moz-box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+	-ms-box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+	box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='white',GradientType=0 ),
+				progid:DXImageTransform.Microsoft.DropShadow( offX=5, offY=0, color=#5966b3ff);
+			
+			
+			
+
+			
+			
+			
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -webkit-linear-gradient(top, rgba(102, 179, 255, 0.37), #fff);
+	background-image: -moz-gradient(linear, left top, left bottom, from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -moz-linear-gradient(top, rgba(102, 179, 255, 0.37), #fff);
+	background-image: -ms-gradient(linear, left top, left bottom, from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -ms-linear-gradient(top, rgba(102, 179, 255, 0.37), #fff);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(102, 179, 255, 0.37)', endColorstr='white',GradientType=0 );*/
+
+}
+.container-right {
+	
+	width:78%;
+	height:99.6%;
+	float:left;
+	background-color:#FFF;
+	margin-left:2%;
+	
+}
+
+.ButonSubCommon{
+	margin-top:5px;
+}
+
+.inputForFocus
+{
+	width:1px;
+	height:1px;
+	position:absolute;
+	margin-top:-1000px;
+}
+.middle{
+width:100%;	
+}
+.main_btn_div{
+position:relative;	
+
+width:95%;
+z-index:1;
+}
+.tickMainBtn{
+position:absolute;	
+top:0;
+right:0;
+z-index:10;
+}
+.handMainBtn
+{
+  padding-left: 100%;
+	z-index:-1;
+}
+.MainBtns
+{
+   display:block;
+	height:100%;
+	z-index:1;
+	
+}
+
+
+
+
+.tick{
+	color:#009933;
+	position:absolute;
+
+	}
+.footer {
+	width:100%;
+	float:left;
+	height:9%;
+	display:inline-block;
+	border-top:1px solid gray;
+	
+}
+.buttons {
+	
+	width:100%;
+}
+.first_button,.second_button,.third_button,.fourth_button,.fifth_button {
+	width:95%;
+	margin-left:5%;
+	font-family:"Times New Roman", Times, serif;
+}
+.print, .autorun, .back_button, .forward_button {
+	float:left;
+}
+h2 {
+	font-family:"Times New Roman", Times, serif;
+}
+button {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+ 	background-color: #538fbe;
+	background-image: linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -o-linear-gradient(bottom, #fff) 0%, #c4d8e9 100%);
+	background-image: -moz-linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -webkit-linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -ms-linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #fff), color-stop(1, #c4d8e9) );
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   -webkit-transition: all .1s ease-in-out;
+   -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	-webkit-transform: rotateX(20deg);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4d8e9', endColorstr='white',GradientType=0 ),
+				progid:DXImageTransform.Microsoft.DropShadow( offX=0, offY=5, color=#2b638f);
+				
+}
+button:hover {
+	background-image: linear-gradient(top, #fff 0%, #c4d8e9 100%);
+	background-image: -o-linear-gradient(top, #fff) 0%, #c4d8e9 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #c4d8e9 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #c4d8e9 100%);
+	background-image: -ms-linear-gradient(top, #fff 0%, #c4d8e9 100%);
+	background-image: -webkit-gradient( linear, left top, left button, color-stop(0, #fff), color-stop(1, #c4d8e9) );
+	cursor:pointer;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#c4d8e9',GradientType=0 ),
+				progid:DXImageTransform.Microsoft.DropShadow( offX=0, offY=5, color=#2b638f);
+}
+button:active {
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	background-image: linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -o-linear-gradient(bottom, #fff) 0%, #c4d8e9 100%);
+	background-image: -moz-linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -webkit-linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -ms-linear-gradient(bottom, #fff 0%, #c4d8e9 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #fff), color-stop(1, #c4d8e9) );
+	-webkit-transform: translate(0, 4px) rotateX(20deg);
+	-moz-transform: translate(0, 4px) rotateX(20deg);
+	transform: translate(0, 4px) rotateX(20deg);
+}
+.print, .back_button, .forward_button, .autorun:hover {
+	cursor:pointer;
+}
+.hand {
+	position:absolute;
+	
+}
+ 
+.forward_button {
+	
+	-webkit-transition: all 0s ease-in-out;
+	-moz-transition: all 0s ease-in-out;
+	-ms-transition: all 0s ease-in-out;
+	transition: all 0s ease-in-out;/*box-shadow: 5px 5px 5px #888888;*/
+}
+.forward_button:hover, .back_button:hover {
+	
+	cursor:pointer;
+}
+.forward_button:active {
+	
+	-webkit-transform: translate(0, 2px);
+	-moz-transform: translate(0, 2px);
+	-ms-transform: translate(0, 2px);
+	transform: translate(0, 2px);/*box-shadow: 1px 1px 5px #888888;*/
+}
+.back_button {
+	-webkit-transition: all 0s ease-in-out;
+	-moz-transition: all 0s ease-in-out;
+	-ms-transition: all 0s ease-in-out;
+	transition: all 0s ease-in-out;/*box-shadow: 5px 5px 5px #888888;*/
+}
+.back_button:active {
+	
+	-webkit-transform: translate(0, 2px);
+	-moz-transform: translate(0, 2px);
+	-ms-transform: translate(0, 2px);
+	transform: translate(0, 2px);/*box-shadow: 1px 1px 5px #888888;*/
+	
+}
+.all_content {
+	
+	width:98%;
+	margin-left:2%;
+	height:98.5%;
+	margin-top:.8%;
+}
+.tick {
+	
+	color:#009933;
+	position:absolute;
+	
+}
+.red_color {
+	color:#C00;
+	
+}
+.blue_color {
+	color:#00F;
+}
+.Ob_blue_color {
+	color:#C00;
+}
+.Ob_red_color {
+	color:#006;
+}
+.black_color {
+	color:#000;
+}
+
+.back_div, .forward_div {
+	height:100%;
+	float:left;
+}
+.back_div {
+	width:8%;
+}
+.forward_div {
+	width:30%;
+}
+.warning {
+	text-align:center;
+	display:none;
+}
+
+
+
+.copyright{
+	color:#999;
+	width:40%;
+	float:right;
+	text-align:right;
+}
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////new code in base ////////////////////////////////////////////////////////////*/
+
+
+
+.autorun
+{
+	width:30%;
+}
+.print
+{
+	margin-left:35%;
+	width:35%;
+}
+.tick,.hand,.SpaceBarDiv
+{
+	display:none;
+}
+.FtrTab_Td3{
+	text-align:center;
+	vertical-align:top;
+}
+.FtrTab_Td4
+{
+	text-align:right;
+}
+.SpaceBarButton{
+	
+	
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transform: rotateX(20deg);
+	
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	box-shadow:none;
+	
+	
+	
+	
+}
+.SpaceBarButton:hover {
+
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	cursor:pointer;
+	box-shadow:none;
+}
+.SpaceBarButton:active {
+
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	-webkit-transform: translate(0, 3px) rotateX(20deg);
+	-moz-transform: translate(0, 3px);
+	transform: translate(0, 3px);
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	box-shadow:none;
+ 
+}
+
+.ContentContainer
+{
+	overflow-y:auto;
+	height:98%;
+	width:97%;
+	margin-left:3%;
+	
+	display:none;
+}
+.container-right
+{
+	line-height:125%;
+}
+
+
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.fdn {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+.rd1 span.fdn {border-top: thin solid red;}
+
+.MainBtns{
+border:2px solid rgb(38,103,191);
+}
+ 
+ 
+ .Rotate{-webkit-transform: rotate(90deg); /* WebKit */
+-moz-transform: rotate(90deg); /* Mozilla */
+-o-transform: rotate(90deg); /* Opera */
+-ms-transform: rotate(90deg); /* Internet Explorer */
+transform: rotate(90deg); /* CSS3 */}
+
+
+
+/*animation css*/
+.ui-slider-horizontal {
+	height: 13px;
+	width: 90%;
+	margin-left:2%;   
+
+	position:absolute;
+
+	    margin-top: 7%;
+	  box-shadow: inset 0 0 5px lightgreen; 
+  border-radius: 10px;	
+  
+		
+}
+.ui-slider .ui-slider-handle {
+    height: 14px;
+    width: 26px;
+    padding-left: 5px;
+    margin-top: 1.5%;
+    pointer-events: auto;
+    border-radius: 17px;
+}
+
+
+.ui-slider-horizontal .ui-state-default {
+		cursor:pointer;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#4D9C41),
+									   to(#19911D),
+									   color-stop(.6,#54DE5D))
+	
+	
+	
+	}
+.ui-state-default:focus { outline: none; }
+
+.animtion_speed{
+position:relative;	
+vertical-align:top;
+	}
+
+.autorun {
+    width: 58%;
+}
+.main_slider{
+width:100%;	
+position:relative;	
+
+	}
+
+.line1,.line2,.line3{
+    position: absolute;
+    border: 1px solid gray;
+    height: 34%;
+	bottom: 0;
+    z-index: 5;
+	font-weight:bold;
+}
+
+.line4, .line5, .line6 {
+    position: absolute;
+    bottom: -100%;
+    z-index: 5;
+    font-size: 11px;
+	font-weight:bold;
+
+}
+
+
+.line2{
+left:52%;
+	}
+.line3{
+left:99%;
+	}
+.line4{
+left:-3%;
+	}
+.line5{
+left:44%;
+	}
+.line6{
+left:95%;
+	}
+.line7 {
+    margin-left: 21%;
+    font-weight: bold;
+    font-size: 13px;
+	position:absolute;
+	white-space:nowrap;
+}
+
+.anim_layer{
+position:absolute;
+z-index:10;
+width:103%;
+height:100%;
+background-color:transparent;
+left:-3%;
+	}
+
+
+
+/* end animation css*/
+
+
+@media (min-width: 450px) and (max-width: 574px) and (orientation:landscape){ 
+
+.container-fluid
+	{
+		width:450px;
+		left:calc((100% - 450px) / 2);
+	}
+.container {
+	height:79%;
+}
+.ContentContainer{
+	margin-left:5%;
+}
+
+button {
+	 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+}
+button:active {
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+	 
+}	
+.handMainBtn
+{
+	
+	font-size:30px;
+	margin-top:-40px;
+}
+
+.tickMainBtn
+{
+	right:-2px;
+	font-size:11px;		
+	margin-top:-4px;
+}
+.MainBtns
+{
+	font-size:8px;/* to be provided to programmer*/
+	border:1px solid rgb(38,103,191);
+}
+.header h2
+{
+	font-size:8px;
+	margin-left:20px;
+	padding-top:1px;
+}
+.Copyright
+{
+	font-size:7px;
+}
+.FtrTab_Td3{
+	text-align:left;
+}
+.SpaceBarDiv{
+ 
+	position:absolute; 
+	height:15px;
+	width: 28%;
+	margin-top:-1%;
+	margin-left:10%;
+	
+}
+
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:6px;
+	
+}
+.autorun
+{
+	height:14px;
+}
+.print
+{
+	height:14px;
+}
+.container-right
+{
+	font-size:10px;
+}
+
+.ui-slider-horizontal {
+    height: 8px;
+    margin-left: 2%;
+    margin-top: 0%;
+}
+.ui-slider .ui-slider-handle {
+    height: 8px;
+    width: 12px;
+    padding-left: 5px;
+    margin-top: 6%;
+}
+
+.line4, .line5, .line6 {
+    font-size: 6px;
+}
+.line7{
+	    font-size: 7px;
+		margin-left:0%;
+		color:white;
+		
+
+}
+.line2 {
+    left: 47%;
+}
+.line5 {
+    left: 36%;
+}
+
+
+
+}
+
+ /*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 575px) and (max-width: 675px) and (orientation:landscape) { 
+.container-fluid
+{
+	width:575px;
+	left:calc((100% - 575px) / 2);
+}
+
+
+
+button {
+	 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+}
+button:active {
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+	 
+}	
+
+.handMainBtn
+{
+
+	font-size:30px;
+	margin-top: -43px;
+}
+ .tickMainBtn
+{
+    right:-1px;
+    font-size: 11px;
+    margin-top: -4px;
+}
+.MainBtns
+{
+	font-size:9px;  /* to be provided to programmer*/
+	border:1px solid rgb(38,103,191);
+}
+.header h2
+{
+	font-size:10px;
+	margin-left:20px;
+	padding-top:2px;
+}
+.Copyright
+{
+	font-size:8px;
+}
+.SpaceBarDiv{
+
+	height:15px;
+	width: 96%;
+}
+
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:9px;
+	
+}
+  .autorun
+{
+	height:17px;
+}
+.print
+{
+	height:17px;
+}
+.container-right
+{
+	font-size:12px;
+}
+
+
+
+.ui-slider-horizontal {
+    height: 8px;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+.ui-slider .ui-slider-handle {
+    height: 8px;
+    width: 11px;
+    padding-left: 5px;
+    margin-top: 4%;
+}
+
+.line4, .line5, .line6 {
+    font-size: 7px;
+}
+.line7{
+	    font-size: 7px;
+		margin-left:9%;
+
+}
+.line2 {
+    left: 47%;
+}
+.line5 {
+    left: 36%;
+}
+
+
+
+
+}
+ 
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 676px) and (max-width: 775px) and (orientation:landscape){ 
+.container-fluid
+{
+	width:676px;
+	left:calc((100% - 676px) / 2);
+}
+
+button {
+	 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+}
+button:active {
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+	 
+}	
+
+.handMainBtn
+{
+	
+	font-size:35px;
+	margin-top:-56px;
+}
+ .tickMainBtn
+{
+	right: -3px;
+    font-size: 15px;
+    margin-top: -6px;
+}
+.MainBtns
+{
+	font-size:12px;  /* to be provided to programmer*/
+	border:1px solid rgb(38,103,191);
+}
+.header h2
+{
+	font-size:12px;
+	margin-left:20px;
+	padding-top:2px;
+}
+.Copyright
+{
+	font-size:8px;
+}
+.SpaceBarDiv{
+
+	height:20px;
+	width: 95%;
+}
+
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:10px;
+	
+}
+.autorun
+{
+	height:17px;
+}
+.print
+{
+	height:17px;
+}
+.container-right
+{
+	font-size:14px;
+}
+
+
+
+
+
+.ui-slider-horizontal {
+    height: 8px;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+.ui-slider .ui-slider-handle {
+    height: 8px;
+    width: 11px;
+    padding-left: 5px;
+    margin-top: 4%;
+}
+
+.line4, .line5, .line6 {
+    font-size: 7px;
+}
+.line7{
+	    font-size: 8px;
+		margin-left:11%;
+
+}
+.line2 {
+    left: 47%;
+}
+.line5 {
+    left: 36%;
+}
+
+.line4, .line5, .line6 {
+    bottom: -120%;
+}
+
+
+
+
+
+
+}
+ 
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 776px) and (max-width: 876px) and (orientation:landscape)
+{
+	.container-fluid
+	{
+		width:776px;
+		left:calc((100% - 776px) / 2);
+	}
+button {
+	 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+}
+button:active {
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+	 
+}	
+
+.handMainBtn
+{
+	
+	font-size:40px;
+	margin-top:-73px;
+}
+
+.tickMainBtn
+{
+	right: -3px;
+    font-size: 18px;
+    margin-top: -6px;
+}
+.MainBtns
+{
+	font-size:14px;  /* to be provided to programmer*/
+	border:1px solid rgb(38,103,191);
+}
+.header h2
+{
+	font-size: 14px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.Copyright
+{
+	font-size:12px;
+}
+.SpaceBarDiv{
+
+	height:28px;
+	width: 88%;
+}
+
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size: 12.5px;
+	
+}
+.container-right
+{
+	font-size:18px;
+}
+
+
+
+
+
+
+.ui-slider-horizontal {
+    height: 8px;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+.ui-slider .ui-slider-handle {
+    height: 9px;
+    width: 11px;
+    padding-left: 5px;
+    margin-top: 3%;
+}
+.line4, .line5, .line6 {
+    font-size: 7px;
+}
+.line7{
+	    font-size: 8px;
+		margin-left:15%;
+
+}
+.line2 {
+    left: 48%;
+}
+.line5 {
+    left: 40%;
+}
+
+.line4, .line5, .line6 {
+    bottom: -120%;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 877px) and (max-width: 980px) and (orientation:landscape)
+{
+	.container-fluid
+	{
+		width:877px;
+		left:calc((100% - 877px) / 2);
+	}
+
+	
+button {
+	 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+}
+button:active {
+	-webkit-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+	box-shadow:0px 1px 0px #2b638f, 0px 1px 4px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 1px rgba(255, 255, 255, .5);
+   
+	 
+}	
+	
+.handMainBtn
+{
+	
+	font-size:47px;
+	margin-top:-83px;
+}
+
+.tickMainBtn
+{
+	right: -4px;
+    font-size: 22px;
+    margin-top: -11px;
+}
+.MainBtns
+{
+	font-size:17px;  /* to be provided to programmer*/
+	border:1px solid rgb(38,103,191);
+}
+.header h2
+{
+	font-size:18.5px;
+	margin-left:20px;
+	padding-top:7px;
+}
+.Copyright
+{
+	font-size:12px;
+}
+.SpaceBarDiv{
+
+	height:30px;
+	width: 96%;
+}
+
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size: 15.5px;
+	
+}
+.container-right
+{
+	font-size:19px;
+}
+
+
+
+
+
+
+
+.ui-slider-horizontal {
+    height: 8px;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+.ui-slider .ui-slider-handle {
+    height: 9px;
+    width: 11px;
+    padding-left: 5px;
+    margin-top: 2%;
+}
+.line4, .line5, .line6 {
+    font-size: 8px;
+}
+.line7{
+	    font-size: 9px;
+		margin-left:15%;
+
+}
+.line2 {
+    left: 48%;
+}
+.line5 {
+    left: 40%;
+}
+
+.line4, .line5, .line6 {
+    bottom: -120%;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 981px) and (max-width: 1100px) and (orientation:landscape)
+{
+	.container-fluid
+	{
+		width:981px;
+		left:calc((100% - 981px) / 2);
+	}
+button {
+	 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow:0px 2px 0px #2b638f, 0px 2px 4px rgba(0, 0, 0, .4), inset 0px 2px 0px rgba(255, 255, 255, .3), inset 0px 0px 2px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 2px 0px #2b638f, 0px 2px 4px rgba(0, 0, 0, .4), inset 0px 2px 0px rgba(255, 255, 255, .3), inset 0px 0px 2px rgba(255, 255, 255, .5);
+	box-shadow:0px 2px 0px #2b638f, 0px 2px 4px rgba(0, 0, 0, .4), inset 0px 2px 0px rgba(255, 255, 255, .3), inset 0px 0px 2px rgba(255, 255, 255, .5);
+   
+}
+button:active {
+	
+	-webkit-box-shadow:0px 2px 0px #2b638f, 0px 2px 4px rgba(0, 0, 0, .4), inset 0px 2px 0px rgba(255, 255, 255, .3), inset 0px 0px 2px rgba(255, 255, 255, .5);
+	-moz-box-shadow:0px 2px 0px #2b638f, 0px 2px 4px rgba(0, 0, 0, .4), inset 0px 2px 0px rgba(255, 255, 255, .3), inset 0px 0px 2px rgba(255, 255, 255, .5);
+	box-shadow:0px 2px 0px #2b638f, 0px 2px 4px rgba(0, 0, 0, .4), inset 0px 2px 0px rgba(255, 255, 255, .3), inset 0px 0px 2px rgba(255, 255, 255, .5);
+   
+	 
+}
+
+	
+.handMainBtn
+{
+	
+	
+	font-size:52px;
+	margin-top:-87px;
+}
+
+.tickMainBtn
+{
+    right: -4px;
+    font-size: 25px;
+    margin-top: -11px;
+}
+.MainBtns
+{
+	font-size:21px;  /* to be provided to programmer*/
+}
+.header h2
+{
+	font-size:21px;
+	margin-left:20px;
+	padding-top:3px;
+}
+.Copyright
+{
+	font-size:12px;
+}
+.SpaceBarDiv{
+
+	height:33px;
+	width: 95%;
+}
+
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size: 17.5px;
+	
+}
+.container-right
+{
+	font-size: 22px;
+}
+
+
+
+.ui-slider-horizontal {
+    height: 8px;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+.ui-slider .ui-slider-handle {
+    height: 9px;
+    width: 11px;
+    padding-left: 5px;
+    margin-top: 2%;
+}
+.line4, .line5, .line6 {
+    font-size: 8px;
+}
+.line7{
+	    font-size: 11px;
+		margin-left:14%;
+
+}
+.line2 {
+    left: 48%;
+}
+.line5 {
+    left: 40%;
+}
+
+.line4, .line5, .line6 {
+    bottom: -120%;
+}
+
+
+
+
+
+
+
+
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 1101px) and (max-width: 1300px) and (orientation:landscape)
+{
+	.container-fluid
+	{
+		width:1101px;
+		left:calc((100% - 1101px) / 2);
+	}
+
+.handMainBtn
+{
+	
+	font-size:60px;
+	margin-top:-98px;
+}
+
+.tickMainBtn
+{
+    right: -6px;
+    font-size: 29px;
+    margin-top: -13px;
+}
+.MainBtns
+{
+	font-size:24px;  /* to be provided to programmer*/
+}
+.header h2
+{
+	font-size:24px;
+	margin-left:20px;
+	padding-top:3px;
+	
+}
+.Copyright
+{
+	font-size:17px;
+}
+.SpaceBarDiv{
+	height:35px;
+	width: 98%;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	margin-left:0%;
+	font-size:20px;
+	padding-left: 1%;
+    padding-right: 1%;
+	white-space: nowrap;
+}
+.autorun
+{
+	width:56%;
+}
+.print
+{
+	width:36%;
+}
+
+.container-right
+{
+	font-size: 24px;
+}
+
+
+
+
+.ui-slider-horizontal {
+    height: 8px;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+.ui-slider .ui-slider-handle {
+    height: 9px;
+    width: 11px;
+    padding-left: 5px;
+    margin-top: 2%;
+}
+.line4, .line5, .line6 {
+    font-size: 8px;
+}
+.line7{
+	    font-size: 13px;
+		margin-left:12%;
+
+}
+.line2 {
+    left: 48%;
+}
+.line5 {
+    left: 42%;
+}
+
+.line4, .line5, .line6 {
+    bottom: -160%;
+}
+
+
+
+
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+ @media (min-width: 1301px) and (max-width: 1500px) and (orientation:landscape)
+{
+.main_btn_div{
+position:relative;	
+
+width:95%;
+
+
+}
+.tickMainBtn{
+position:absolute;	
+top:-17px;
+right:-7px;
+font-size: 36px;
+}
+
+.handMainBtn
+{
+	padding-left:101%;
+	font-size:73px;
+	margin-top:-115px;
+	
+}	
+	
+	
+	
+.container-fluid
+	{
+		width:1301px;
+		left:calc((100% - 1301px) / 2);
+	}
+/*.handMainBtn
+{
+	padding-left:.5%;
+	font-size:73px;
+	margin-top:0px;
+}
+
+.tickMainBtn
+{
+	margin-left: -23px;
+    font-size: 36px;
+    margin-top: -7px;
+}*/
+.MainBtns
+{
+	font-size:22px;  /* to be provided to programmer*/
+}
+.header h2
+{
+	font-size:23px;
+	margin-left:20px;
+	padding-top:7px;
+}
+.Copyright
+{
+	font-size:20px;
+}
+.SpaceBarDiv{
+	height:45px;
+	width: 100%;
+}
+.SpaceBarButton
+{
+	height:90%;
+	width:80%;
+	margin-left:0%;
+	font-size:20px;
+	padding-left: 1%;
+    padding-right: 1%;
+	white-space: nowrap;
+}
+.container-right
+{
+	font-size: 22px;
+}
+.table2_td1{padding-top:17px;}
+
+
+
+
+
+.line4, .line5, .line6 {
+    font-size: 12px;
+}
+.line7{
+	    font-size: 13px;
+
+}
+
+
+
+
+
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+ @media (min-width: 1501px) and (max-width: 1800px) and (orientation:landscape)
+{
+	.container-fluid
+	{
+		width:1501px;
+		left:calc((100% - 1501px) / 2);
+	}
+.handMainBtn
+{
+	
+	font-size:74px;
+	margin-top:-154px;
+}
+
+.tickMainBtn
+{
+	right: -7px;
+    font-size: 34px;
+    margin-top: -15px;
+}
+.MainBtns
+{
+	font-size:30px;  /* to be provided to programmer*/
+}
+.header h2
+{
+	font-size:30px;
+	margin-left:20px;
+	padding-top:7px;
+}
+.Copyright
+{
+	font-size:20px;
+}
+.SpaceBarDiv{
+	height:60px;
+	width: 98%;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	margin-left:0%;
+	font-size:28px;
+	padding-left: 1%;
+    padding-right: 1%;
+	white-space: nowrap;
+}
+.container-right
+{
+	font-size: 32px;
+}
+.autorun
+{
+	width:56%;
+ 
+}
+.print
+{
+	margin-left:35%;
+	width:42%;
+	
+	}
+
+.line7 {
+    margin-left: 15%;
+    font-size: 16px;
+}
+
+
+
+}
+ 
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+ @media (min-width: 1801px) and (max-width: 2000px) and (orientation:landscape)
+{
+.container-fluid
+{
+	width:1801px;
+	left:calc((100% - 1801px) / 2);
+}
+
+.handMainBtn
+{
+	
+	font-size:80px;
+	margin-top:-170px;
+}
+
+.tickMainBtn
+{
+	right: -9px;
+    font-size: 43px;
+    margin-top:-21px;
+}
+.MainBtns
+{
+	font-size:31px;  /* to be provided to programmer*/
+}
+.header h2
+{
+	font-size:31px;
+	margin-left:20px;
+	padding-top:7px;
+}
+.Copyright
+{
+	font-size:25px;
+}
+.SpaceBarDiv{
+	height:70px;
+	width: 99%;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	margin-left:0%;
+	font-size:33px;
+	padding-left: 1%;
+    padding-right: 1%;
+	white-space: nowrap;
+}
+.container-right
+{
+	font-size: 33px;
+}
+.FtrTab_Td1,.FtrTab_Td2{
+	width:8%;
+	text-align:left;
+}
+.FtrTab_Td4{
+	width:34%;
+}
+.autorun
+{
+	width:45%;
+	margin-left:5%;
+ 
+}
+.print
+{
+	margin-left:25%;
+	width:55%;
+	
+	}
+
+
+.line7 {
+    margin-left: 21%;
+    font-size: 20px;
+}
+
+.ui-slider .ui-slider-handle {
+    height: 22px;
+    width: 26px;
+    padding-left: 5px;
+    margin-top: 1%;
+    pointer-events: auto;
+    border-radius: 17px;
+}
+
+.line5 {
+    left: 46%;
+}
+.ui-slider-horizontal {
+    height: 23px;
+    width: 90%;
+}
+.line4, .line5, .line6 {
+    font-size: 16px;
+}
+
+
+
+
+
+
+}
+ 
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+ @media (min-width: 2001px) and (orientation:landscape)
+{
+.container-fluid
+{
+	width:2001px;
+	left:calc((100% - 2001px) / 2);
+}
+
+
+.handMainBtn
+{
+
+	font-size:85px;
+	margin-top:-168px;
+}
+
+.tickMainBtn
+{
+    right: -15px;
+    font-size: 50px;
+    margin-top: -17px;
+}
+.MainBtns
+{
+	font-size:37px;  /* to be provided to programmer*/
+}
+.header h2
+{
+	font-size:33px;
+	margin-left:20px;
+	padding-top:7px;
+}
+.Copyright
+{
+	font-size:31px;
+}
+.SpaceBarDiv{
+	height:70px;
+	width: 89%;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	margin-left:0%;
+	font-size:33px;
+	padding-left: 1%;
+    padding-right: 1%;
+	white-space: nowrap;
+}
+.container-right
+{
+	font-size: 39px;
+}
+.FtrTab_Td1,.FtrTab_Td2{
+	width:8%;
+	text-align:left;
+}
+.FtrTab_Td4{
+	width:34%;
+}
+.autorun
+{
+	width:45%;
+	margin-left:5%;
+ 
+}
+.print
+{
+	margin-left:25%;
+	width:55%;
+	
+	}
+
+
+
+
+
+
+.line7 {
+    margin-left: 21%;
+    font-size: 20px;
+}
+
+.ui-slider .ui-slider-handle {
+    height: 22px;
+    width: 26px;
+    padding-left: 5px;
+    margin-top: 1%;
+    pointer-events: auto;
+    border-radius: 17px;
+}
+
+.line5 {
+    left: 46%;
+}
+.ui-slider-horizontal {
+    height: 23px;
+    width: 90%;
+}
+.line4, .line5, .line6 {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+}
+
+
+@media (orientation:portrait)
+{
+.warning
+{
+	display:inline-block;
+	width:100%;
+	height:50%;
+	margin-top:38%;
+	
+}
+.orient
+{
+	width:100%;
+	height:100%;
+}
+.container-fluid
+{
+	display:none;
+}
+}
+ .ContentContainer{
+	margin-left:3%;
+}
